@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NetHelper_Example' do
+  pod 'NetHelper', :path => '../'
+
+  target 'NetHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
