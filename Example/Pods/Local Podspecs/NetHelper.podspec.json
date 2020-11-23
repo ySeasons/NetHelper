@@ -1,0 +1,22 @@
+{
+  "name": "NetHelper",
+  "version": "0.1.0",
+  "summary": "A short description of NetHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yanglifang/NetHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yanglifang": "lifang.yang@zxzx119.com"
+  },
+  "source": {
+    "git": "https://github.com/yanglifang/NetHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NetHelper/Classes/**/*"
+}

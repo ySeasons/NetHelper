@@ -39,10 +39,10 @@
 		607FACE51AFB9204008FA782 /* NetHelper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetHelper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9B04EB39D2262AAD858D0412 /* NetHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NetHelper.podspec; path = ../NetHelper.podspec; sourceTree = "<group>"; };
+		9B04EB39D2262AAD858D0412 /* NetHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NetHelper.podspec; path = ../NetHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1E288F2F00F4E95A352A96F /* Pods_NetHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB872C233B60EFC7EEB061E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CBD2B21A93CE0B4E22C1DD6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BB872C233B60EFC7EEB061E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CBD2B21A93CE0B4E22C1DD6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CD8E8A7A2C0450B3E9564842 /* Pods-NetHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetHelper_Example.debug.xcconfig"; path = "Target Support Files/Pods-NetHelper_Example/Pods-NetHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CE411707A0A52EC916E12377 /* Pods-NetHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-NetHelper_Example/Pods-NetHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CEB6CA5B94A3B211037A940E /* Pods-NetHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NetHelper_Tests/Pods-NetHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				CEB6CA5B94A3B211037A940E /* Pods-NetHelper_Tests.debug.xcconfig */,
 				3BEC2F77A8C0151ABD0D605E /* Pods-NetHelper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

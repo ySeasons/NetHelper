@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'NetHelper_Example' do
   pod 'NetHelper', :path => '../'
+  
+  pod 'Alamofire', '~> 5.0.5'
 
   target 'NetHelper_Tests' do
     inherit! :search_paths

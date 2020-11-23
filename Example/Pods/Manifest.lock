@@ -1,0 +1,16 @@
+PODS:
+  - NetHelper (0.1.0)
+
+DEPENDENCIES:
+  - NetHelper (from `../`)
+
+EXTERNAL SOURCES:
+  NetHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NetHelper: 2e1f465d81490075b85027b23c222949032b4e27
+
+PODFILE CHECKSUM: c5c0bd16563d12194c04bd99970684cd67d2a31b
+
+COCOAPODS: 1.9.0.beta.3

@@ -1,0 +1,6 @@
+framework module Pods_NetHelper_Example {
+  umbrella header "Pods-NetHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
