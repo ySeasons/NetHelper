@@ -22,7 +22,7 @@ pod 'NetHelper'
 
 ## Author
 
-yanglifang, lifang.yang@zxzx119.com
+yanglifang, yanglifang111222@126.com
 
 ## License
 
