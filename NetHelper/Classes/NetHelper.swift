@@ -91,8 +91,9 @@ class NetHelper: NSObject {
     class func IMGS(url:String,params:[String:Any],images:[UIImage],success: @escaping SuccessBlock) {
         let request3 = AF.upload(multipartFormData: { (mutilPartData) in
             var i:Int = 0
-            for image:UIImage in images {
-                let imgData:Data = UIImageJPEGRepresentation(image, 1)!
+            for _:UIImage in images {
+//                let imgData:Data = image
+                let imgData:Data = Data()
                 let fileName = String(Date(timeIntervalSinceNow: 0).timeIntervalSince1970) + "_" + String(i) + ".jpg"
                 mutilPartData.append(imgData, withName: "files", fileName: fileName, mimeType: "image/jpg/png/jpeg")
                 i += 1
