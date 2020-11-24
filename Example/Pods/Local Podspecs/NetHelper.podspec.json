@@ -1,6 +1,6 @@
 {
   "name": "NetHelper",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "summary": "Swift 数据访问Alamofire二次封装",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ySeasons/NetHelper",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ySeasons/NetHelper.git",
-    "tag": "0.1.1"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "10.0"

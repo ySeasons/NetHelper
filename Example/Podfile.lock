@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.0.5)
-  - NetHelper (0.1.1):
+  - NetHelper (0.1.3):
     - Alamofire (~> 5.0.5)
 
 DEPENDENCIES:
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
-  NetHelper: aae9a0f592604b977b2ef229e59a4ff1cb083ac7
+  NetHelper: 1239d741eed97d65a9ee3ca01e4f427a07864fc6
 
 PODFILE CHECKSUM: a9b51f881b14be5bda1d1a1fd9a5b088bcfa3a6f
 
