@@ -1,13 +1,15 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
 use_frameworks!
 
 target 'NetHelper_Example' do
   pod 'NetHelper', :path => '../'
-  
-  pod 'Alamofire', '~> 5.0.5'
 
   target 'NetHelper_Tests' do
     inherit! :search_paths
 
-    
+    pod 'Alamofire', '~> 5.0.5'
+
   end
 end

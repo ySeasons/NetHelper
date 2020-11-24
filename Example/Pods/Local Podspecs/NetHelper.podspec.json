@@ -1,22 +1,27 @@
 {
   "name": "NetHelper",
-  "version": "0.1.0",
-  "summary": "A short description of NetHelper.",
+  "version": "0.1.1",
+  "summary": "Swift 数据访问Alamofire二次封装",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yanglifang/NetHelper",
+  "homepage": "https://github.com/ySeasons/NetHelper",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yanglifang": "lifang.yang@zxzx119.com"
+    "yanglifang": "yanglifang111222@126.com"
   },
   "source": {
-    "git": "https://github.com/yanglifang/NetHelper.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ySeasons/NetHelper.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "NetHelper/Classes/**/*"
+  "source_files": "NetHelper/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.0.5"
+    ]
+  }
 }

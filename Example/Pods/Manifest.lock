@@ -1,16 +1,24 @@
 PODS:
-  - NetHelper (0.1.0)
+  - Alamofire (5.0.5)
+  - NetHelper (0.1.1):
+    - Alamofire (~> 5.0.5)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.0.5)
   - NetHelper (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   NetHelper:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NetHelper: 2e1f465d81490075b85027b23c222949032b4e27
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  NetHelper: aae9a0f592604b977b2ef229e59a4ff1cb083ac7
 
-PODFILE CHECKSUM: c5c0bd16563d12194c04bd99970684cd67d2a31b
+PODFILE CHECKSUM: a9b51f881b14be5bda1d1a1fd9a5b088bcfa3a6f
 
-COCOAPODS: 1.9.0.beta.3
+COCOAPODS: 1.10.0

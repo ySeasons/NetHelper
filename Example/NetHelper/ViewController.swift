@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import NetHelper
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .darkGray
+//        NetHelper.GET(url: "", params: nil) { (result) in
+//
+//        }}
+//        NetHelper.POST(url: "", params: nil) { (result) in
+//
+//        }}
+//        NetHelper.IMGS(url: "", params: [:], images: [UIImage]) { (result) in
+//        })
+//        NetHelper.IMGPath(url: "", params: [:], imagesPath: [String]) { (result) in
+//        })
+
+
     }
 
     override func didReceiveMemoryWarning() {
